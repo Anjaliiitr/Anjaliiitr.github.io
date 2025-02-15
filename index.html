@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #7a0f65;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #4d2144;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .faculty-member {
+            display: inline-block;
+            width: 400px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .faculty-member img {
+            width: 74%;
+            height: auto;
+            
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .active-tab {
+            display: block;
+        }
+
+        .updates-section {
+            background-color: #e1f7e1;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+
+        footer {
+            background-color: #4d2144;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Webpage </h1>
+           </header>
+
+    <nav>
+        <a href="#" onclick="showTab('home')">Home</a>
+<a href="#" onclick="showTab('teach')">Teaching</a>
+        <a href="#" onclick="showTab('projects')">Projects</a>
+        <a href="#" onclick="showTab('admin')">Administrative Duty</a>
+        <a href="#" onclick="showTab('student')">Students</a>
+        <a href="#" onclick="showTab('research')">Research</a>
+    </nav>
+
+    <main>
+<marquee> <h4 style="color:blue;">Ph.D. Position Available, Interested Candidates May Contact</h4> </marquee>
+        <!-- Home Tab -->
+       <div id="home" class="tab-content active-tab">
+                        <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+               <!-- Faculty Info Section -->
+
+                <div class="faculty-info">
+                   
+                    <div class="faculty-member">
+                        <img src="images/1.jpg" alt="Dr. Anjali Gautam">
+                        <h3>Dr. Anjali Gautam</h3>
+                        <p style="margin-bottom:0;">Assistant Professor Level 11, <br> Department of  Information Technology,<br>
+Indian Institute of Information Technology Allahabad <br>
+Uttar Pradesh, INDIA <br>
+Contact: +91 532 292 2535, anjaligautam@iiita.ac.in <br>
+
+<a href="https://scholar.google.com/citations?user=1xFIJOkAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" class="RNpQXe" style="width: 32px; height: 32px; margin: 6px;"><img src="images/gs.png"  class="xbGufb" style="width: 32px; height: 32px;" width="32" height="32"></a>
+<a href="https://www.researchgate.net/profile/Anjali-Gautam-9" target="_blank" class="RNpQXe" style="width: 32px; height: 32px; margin: 6px;"><img src="images/rg.png" alt="Link" class="xbGufb" style="width: 32px; height: 32px;" width="32" height="32"></a>
+<a href="https://www.linkedin.com/in/anjali-gautam-83814280/?originalSubdomain=in" target="_blank" class="RNpQXe" style="width: 32px; height: 32px; margin: 6px;"><img src="images/li.png"  class="xbGufb" style="width: 32px; height: 32px;" width="32" height="32"></a>
+    
+                        </p>
+                    </div>
+                   
+                </div>  
+<div class="faculty-info">
+
+                    <div class="faculty-member">
+                       <h3>Bio</h3> 
+                        <p align="justify">I have done my M.Tech and Ph.D in the field of Medical Image Analysis from G.B. Pant Engineering College Pauri Garhwal and IIT Roorkee respectively. During Ph.D., I got a young scientist award for my work by Uttarakhand Council for Science & Technology in 2018. Before joining IIIT Allahabad, I have served DIT University Dehradun, University of Petroleum and Energy Studies (UPES) Dehradun and Women Institute of Technology Dehradun for some time. Currently, I am working on two sponsored projects funded by IIIT Allahabad and Science and Engineering Research Board (SERB).  </p>
+            <h3>Research Interest</h3> 
+<ul>
+                        <li>Image Processing, Computer Vision</li>
+                        <li>Medical Image Analysis</li>
+                        <li>Deep Learning, Machine Learning</li>
+                    </ul>
+
+         
+</div>
+                   
+                </div>             
+ <!-- Updates Section -->
+                <div class="updates-section">
+                    <h3>Latest Updates</h3>
+                    <ul align="justify">
+                        <li><strong> Internship:</strong> Offline Two Months internship in June and July (1 Seat).</li>
+                        <li><strong>Upcoming Workshop:</strong> One Day Faculty Workshop  in May or June 2025 (25 Seats).</li>
+                    </ul>
+                </div>
+
+                
+            </div>
+        </div>
+
+           
+
+       
+
+ <!-- Teaching Tab -->
+        <div id="teach" class="tab-content">
+<h2>Subjects Teaching</h2>
+<ul>
+                <li>Database Management System in B.Tech 2nd Year (Jan-June 2025) </li>
+            </ul>
+
+            <h2>Subjects Taught</h2>
+            <ul>
+                <li>Computer Organization and Architecture in B.Tech 1st Year</li>
+                <li>Search Engine Optimization in MBA 3rd Sem </li>
+                <li>Operating System in B.Tech 2nd Year </li>
+                <li>Information Retrieval (IR) in B.Tech and M.Tech </li>
+                <li>Introduction to Programming in B.Tech 1st Year</li>
+		<li> Database Management System in B.Tech 2nd Year</li>
+		<li> Object Oriented Programming in B.Tech 2nd Year(in WIT) </li>
+		<li> Java Programming in B.Tech 3rd Year (in UPES and WIT) </li>
+		<li> Storage Technology Foundation (CSIB255) in B.Tech 4th Year (in UPES)</li>
+		<li> Computer Graphics Lab (CSEG3103) in BTech 3rd Year (in UPES) </li>
+		<li> Computer Graphics Lab (CSEG3103) in BTech 3rd Year (in UPES)</li>
+		<li> Web Technology (CS345) in B.Tech 3rd Year (In DIT University) </li>
+		<li>Advanced Concepts in OOPs (CS345) in B.Tech 3rd Year (In DIT University)</li>
+		<li>Information Coding & Theory (CS711) in M.Tech 2nd Year (In DIT University)</li>
+            </ul>
+        </div>
+
+  <!-- Projects Tab -->
+        <div id="projects" class="tab-content">
+            <h2>Research Projects</h2>
+            <ul>
+                <li><strong>Project Title</strong> - Design and Development of Computer-Aided Diagnostic Software to Localize and Grade Eye Diseases using Deep Learning and Transformer Approaches <br>
+<strong>Funding Agency</strong> - EMEQ-SERB, <br>
+<strong>Sanctioned Amount</strong> - Rs. 23,04,544, <br>
+<strong>Duration</strong> - 3 years <br>
+<strong>Status</strong> - Ongoing</li><br>
+            <li><strong>Project Title</strong> - Developing deep learning-based methodologies to identify breast cancer, <br>
+
+
+<strong>Funding Agency</strong> - Seed Money, IIIT Allahabad, <br>
+<strong>Sanctioned Amount</strong> - Rs. 10,00,000, <br>
+<strong>Duration</strong> - 3 years, <br>
+<strong>Status</strong> - Ongoing </li>
+            </ul>
+        </div>
+
+        <!-- Administrative Tab -->
+        <div id="admin" class="tab-content">
+            <h2>Administrative Duty</h2>
+
+            <ul>
+               <li> Warden GH-3 from January 08, 2024 till now  (institute level)</li>
+<li> Warden GH-1 from 1 September 2021 to January 08, 2024 (institute level)</li>
+<li> Member of Prevention of Sexual Harassment Committee for women at workplace from 28 June 2023 till now (institute level)</li>
+<li> Member of Departmental Time-Table committee July-Dec 2024 (Department level)</li>
+<li> DUGC Member (Department level)</li>
+<li> Member of ATTSC (Alumni Think Tank and Support Committee) from 10-11-2021 to 20 January 2024 (Dean Alumni Affairs level).</li>
+
+            </ul>
+<h2>Service to Institute Community   </h2>
+<ul>
+
+
+<li>IIITA Employee Teams Formation Game Monitoring Committee member of carrom and chess tournament of 1st Inter IIIT Employee Sports Meet Organized at IIITA during November 15-17, 2024.</li> 
+<li>Local Hospitality and Fooding Committee member of Global Alumni Meet 2024 organized during September 27-29, 2024.</li>
+<li>Hospitality committee member as warden in Effervescence- 2024.</li>
+<li>Member of Media Committee, Reception/Accommodation Committee of 19th  Institute Convocation held on 14th September 2024.</li>
+<li>Accommodation and Food Committee member as warden in IIIT sports meet for students and employees during March 9-15, 2024. </li>
+
+</ul>
+        </div>
+
+
+ <!-- Research -->
+        <div id="admin" class="tab-content">
+            <h2>Research</h2>
+
+            <ul>
+               <li> Warden GH-3</li>
+
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <p><a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=19071085&style=0010&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" width="100" height="22"/></a> &#09; &copy; 2025 Anjali's Webpage. All Rights Reserved. </p> 
+    </footer>
+
+    <script>
+        function showTab(tabId) {
+            // Hide all tabs
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.classList.remove('active-tab'));
+
+            // Show the selected tab
+            const activeTab = document.getElementById(tabId);
+            activeTab.classList.add('active-tab');
+        }
+    </script>
+</body>
+
+</html>
