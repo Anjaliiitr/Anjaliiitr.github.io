@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
  
-<head>   
-    <meta charset="UTF-8">   
+<head> 
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>Anjali's Webpage</title>    
-    <style>      
-	    @media (max-width: 720px) {   
+    <title>Anjali Webpage</title> 
+    <style>
+	    @media (max-width: 768px) {
         body {
             font-family: Arial, sans-serif; 
             margin: 0; 
-            padding: 0;  
+            padding: 0;
             background-color: #f4f4f9;   
         } }
 
@@ -44,8 +44,8 @@
 
         .faculty-member {
             display: inline-block;
-            width: 350px;
-            margin: 10px;
+            width: 400px;
+            margin: 20px;
             text-align: center;
         }
 
@@ -135,6 +135,10 @@
   to {opacity: 1}
 }
 
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
 
     </style>
 </head>
@@ -151,7 +155,7 @@
         <a href="#" onclick="showTab('admin')">Administrative Duty</a>
         <a href="#" onclick="showTab('student')">Students</a>
         <a href="#" onclick="showTab('research')">Research</a> 
-	<a href="#" onclick="showTab('trip')">Foreign Trips</a> 
+	<a href="#" onclick="showTab('trip')">Foreign Trip</a> 
     </nav>
 
     <main>
@@ -181,33 +185,33 @@ Contact: +91 532 292 2535, anjaligautam@iiita.ac.in <br>
                 </div>  
 <div class="faculty-info">
 
-<div class="faculty-member">
- <h3>Bio</h3> 
-<p align="justify">I have done my M.Tech and Ph.D in the field of Medical Image Analysis from G.B. Pant Engineering College Pauri Garhwal and IIT Roorkee respectively. During Ph.D., I got a young scientist award for my work by Uttarakhand Council for Science & Technology in 2018. Before joining IIIT Allahabad, I have served DIT University Dehradun, University of Petroleum and Energy Studies (UPES) Dehradun and Women Institute of Technology Dehradun for some time. Currently, I am working on two sponsored projects funded by IIIT Allahabad and Science and Engineering Research Board (SERB).  
-           Click <a href="/CV.pdf">here</a> for my CV .</p>
- <h3>Research Interest</h3> 
- <div class="text-left mx-auto"> 
-<ul>                    
-	<li>Image Processing, Computer Vision</li>
-        <li>Medical Image Analysis</li>
-        <li>Deep Learning, Machine Learning</li>
- </ul>
- </div>
- </div>
-                   
- </div>             
- <!-- Updates Section -->
-               
- <div class="faculty-info">
                     <div class="faculty-member">
+                       <h3>Bio</h3> 
+                        <p align="justify">I have done my M.Tech and Ph.D in the field of Medical Image Analysis from G.B. Pant Engineering College Pauri Garhwal and IIT Roorkee respectively. During Ph.D., I got a young scientist award for my work by Uttarakhand Council for Science & Technology in 2018. Before joining IIIT Allahabad, I have served DIT University Dehradun, University of Petroleum and Energy Studies (UPES) Dehradun and Women Institute of Technology Dehradun for some time. Currently, I am working on two sponsored projects funded by IIIT Allahabad and Science and Engineering Research Board (SERB).  
+           Click <a href="/CV.pdf">here</a> for my CV .</p>
+			    <h3>Research Interest</h3> 
+			    <div class="text-left mx-auto"> 
+<ul>
+                        <li>Image Processing, Computer Vision</li>
+                        <li>Medical Image Analysis</li>
+                        <li>Deep Learning, Machine Learning</li>
+                    </ul>
+</div>
+         
+</div>
+                   
+                </div>             
+ <!-- Updates Section -->
+                <div class="updates-section">
                     <h3>Latest Updates</h3>
                     <ul align="justify">
                         <li><strong> Internship:</strong> Offline Two Months internship in June and July (1 Seat).</li>
                         <li><strong>Upcoming Workshop:</strong> One Day Faculty Workshop  in May or June 2025 (25 Seats).</li>
                     </ul>
                 </div>
+
                 
-           
+            </div>
         </div>
 
            
@@ -340,7 +344,8 @@ Contact: +91 532 292 2535, anjaligautam@iiita.ac.in <br>
 									</ul>
             
         </div>
-  <!-- Foriegn Trip -->
+  
+<!-- Foriegn Trip -->
         <div id="trip" class="tab-content">
             <h2>Explore the World</h2>
            
