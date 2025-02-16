@@ -79,6 +79,34 @@
             bottom: 0;
             width: 100%;
         }
+	     .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .scholar-card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .scholar-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .scholar-card h3 {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    .scholar-card p {
+      font-size: 14px;
+      color: #555;
+    }
     </style>
 </head>
 
@@ -230,6 +258,23 @@ Contact: +91 532 292 2535, anjaligautam@iiita.ac.in <br>
  <!-- Students -->
         <div id="student" class="tab-content">
             <h2>Ph.D. Students</h2>
+		
+		<div class="container">
+    <!-- Scholar 1 -->
+    <div class="scholar-card">
+      <img src="scholar1.jpg" alt="Research Scholar 1">
+      <h3>Dr. John Doe</h3>
+      <p>PhD in Machine Learning</p>
+      <p>Research on AI and Data Science.</p>
+    </div>
+
+    <!-- Scholar 2 -->
+    <div class="scholar-card">
+      <img src="scholar2.jpg" alt="Research Scholar 2">
+      <h3>Dr. Jane Smith</h3>
+      <p>PhD in Quantum Computing</p>
+      <p>Research on Quantum Algorithms.</p>
+    </div>
 <h2>M.Tech Students</h2><br
 	<ul>
 									<li><b> Young Scientist Awards</b> by Uttarakhand State Science & Technology Congress, Uttarakhand State Council for Science And Technology in 2018 for our research work (co-author <a href="https://www.iitr.ac.in/~CSE/Balasubramanian_R_">Prof. R. Balasubramanian Raman </a>) </li>
